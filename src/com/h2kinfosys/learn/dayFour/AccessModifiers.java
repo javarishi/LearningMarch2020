@@ -15,6 +15,7 @@ public class AccessModifiers {
 		System.out.println(access.privateString);
 		System.out.println(access.protectedString);
 		System.out.println(access.defautString);
+		
 
 	}
 
