@@ -4,6 +4,8 @@ import java.util.List;
 
 public class Customer {
 	
+	protected String storeName = "Customer :: Cumberland Store";
+	
 	public Customer() {
 		System.out.println("Aweome Logic of Creating Customer");
 	}

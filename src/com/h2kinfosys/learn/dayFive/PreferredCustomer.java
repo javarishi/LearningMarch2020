@@ -2,6 +2,14 @@ package com.h2kinfosys.learn.dayFive;
 
 public class PreferredCustomer extends Customer {
 	
+	String storeName = "PreferredCustomer :: Cumberland Store";
+	
+	// Compiler can only call default - no arg constructor of Parent
+	public PreferredCustomer() {
+		super();
+		System.out.println("PreferredCustomer Constructor");
+	}
+	
 	
 	// Validate Method - ZipCode and City with Google Maps
 	/*
@@ -18,6 +26,8 @@ public class PreferredCustomer extends Customer {
 	@Override
 	public boolean validateCustomer(String zipCode, String city)  {
 		boolean result = super.validateCustomer(zipCode, city);
+		System.out.println(super.storeName);
+		System.out.println(storeName);
 		System.out.println("PreferredCustomer validateCustomer Google Map Validation ");
 		return result;
 	}
