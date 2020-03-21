@@ -31,5 +31,9 @@ public class PreferredCustomer extends Customer {
 		System.out.println("PreferredCustomer validateCustomer Google Map Validation ");
 		return result;
 	}
+	
+	public void printApplicableDiscount() {
+		System.out.println("Preferred Customer Discount is : 10%");
+	}
 
 }

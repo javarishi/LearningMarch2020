@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Customer {
 	
+	private String firstName;
 	protected String storeName = "Customer :: Cumberland Store";
 	
 	public Customer() {
@@ -68,6 +69,14 @@ public class Customer {
 			}
 		}
 		return false;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
 }
