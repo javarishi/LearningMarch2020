@@ -1,6 +1,6 @@
 package com.h2kinfosys.learn.daysix;
 
-public abstract class Vehicle {
+public abstract class Vehicle  {
 	
 	public Vehicle() {
 		System.out.println("Abstract Class Constructor can only be called from Child Class Constructor");

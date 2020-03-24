@@ -70,6 +70,10 @@ public class Customer {
 		}
 		return false;
 	}
+	
+	public final void awesomeLogicShouldNotBeOverridden() {
+		System.out.println("No Override");
+	}
 
 	public String getFirstName() {
 		return firstName;

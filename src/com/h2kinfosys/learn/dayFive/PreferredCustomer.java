@@ -10,6 +10,7 @@ public class PreferredCustomer extends Customer {
 		System.out.println("PreferredCustomer Constructor");
 	}
 	
+
 	
 	// Validate Method - ZipCode and City with Google Maps
 	/*
@@ -35,5 +36,12 @@ public class PreferredCustomer extends Customer {
 	public void printApplicableDiscount() {
 		System.out.println("Preferred Customer Discount is : 10%");
 	}
+	
+	/*
+	@Override
+	public void awesomeLogicShouldNotBeOverridden() {
+		super.awesomeLogicShouldNotBeOverridden();
+		System.out.println("Child is able to override");
+	} */
 
 }
