@@ -21,3 +21,15 @@ colors.contains("blue") ==> true
 colors.contains("violet") ==> false
 
 int length = colors.size() --> Size of collection
+
+
+
+Queue q1 = {A,B,C,D}
+Queue q2 = {}
+
+
+Deque d1 = {}
+
+
+
+
