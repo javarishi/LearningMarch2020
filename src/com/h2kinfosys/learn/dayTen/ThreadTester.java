@@ -4,7 +4,7 @@ public class ThreadTester {
 
 	public static void main(String[] args) throws InterruptedException {
 		// Thread - class helps to create threads in JAVA
-		Task task = new Task();
+		Task task = new Task(1);
 		// Thread is created with Thread instance
 		Thread threadOne = new Thread(task);
 		Thread threadTwo = new Thread(task);
