@@ -23,6 +23,7 @@ public class TestConnection {
 			
 			// 3. Making a connection
 			conn = DriverManager.getConnection(connectionURL, props);
+			conn.setAutoCommit(false);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
